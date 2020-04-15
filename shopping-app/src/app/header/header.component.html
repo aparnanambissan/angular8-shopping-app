@@ -17,9 +17,9 @@
                     aria-haspopup="true" aria-expanded="false" style="cursor: pointer;">
                     Manage
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" style="cursor: pointer;">Saving Data</a>
-                    <a class="dropdown-item" style="cursor: pointer;">Fetching Data</a>
+                <div class="dropdown-menu show" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" style="cursor: pointer;" (click)="onSaveData()">Save Data</a>
+                    <a class="dropdown-item" style="cursor: pointer;" (click)="onFetchData()">Fetch Data</a>
                 </div>
             </li>
         </ul>
